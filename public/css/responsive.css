@@ -1,0 +1,128 @@
+.for-mobile {
+    display: none;
+}
+.for-desktop {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 5px 0 5px 0;
+    }
+    .for-navbar {
+        background: rgba(34,34,34,0.6);
+        -webkit-box-shadow:0px 1px 1px #222;
+        -moz-box-shadow:0px 1px 1px #222;
+        box-shadow:0px 1px 1px #222;
+    }
+    .psme-logo {
+        width: 75%;
+        margin-top: -15px;
+    }
+    .navbar-right li a:hover {
+        background: transparent;
+    }
+
+    .navbar-right {
+        position: absolute;
+        right: 0;
+    }
+    .header-container {
+        position: relative;
+    }
+
+    .slider {
+        position: absolute;
+        display:block;
+        left: 0;
+        top:100%;
+        margin:0 auto;
+        height: 5px;
+        background-color: #ffffff;
+        width: 0%;
+        transition: width 1s ease;
+    }
+    .navbar-right li a,
+    .navbar-right li a.active{
+        position:relative;
+        display:inline-block;
+        transition: all 0.3s ease-out;
+        color: #ffffff;
+        border-bottom:solid transparent 5px;
+    }
+    .navbar-right li a:hover .slider,
+    .navbar-right li a:focus .slider,
+    .navbar-right li a.active .slider{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-fixed-top {
+        background: rgba(34,34,34,0.6);
+        -webkit-box-shadow:0px 1px 1px #222;
+        -moz-box-shadow:0px 1px 1px #222;
+        box-shadow:0px 1px 1px #222;
+    }
+    /*.psme-logo {*/
+    /*width: 75%;*/
+    /*margin-top: 0 !important;*/
+    /*}*/
+
+    .navbar-brand {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        background: #0000cd;
+        margin: 17px;
+    }
+    .navbar-toggle .icon-bar {
+        background: #ffffff;
+    }
+    .navbar-right li a {
+        text-align: center;
+    }
+    .navbar-right li a:hover,
+    .navbar-right li a:focus,
+    .navbar-right li a.active {
+        background: #0000cd;
+    }
+    .psme-logo2 {
+        width: 50px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .for-mobile {
+        display: block !important;
+    }
+    .for-desktop {
+        display: none !important;
+    }
+    .psme-logo2 {
+        width: 10%;
+        margin-top: -15px !important;
+        margin-left: 10px;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    .psme-logo2 {
+        width: 10%;
+        margin-top: -17px !important;
+        margin-left: 10px;
+    }
+    .navbar-right {
+        right: 30px;
+    }
+}
