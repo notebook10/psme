@@ -74,6 +74,12 @@ section {
     text-align: center;
     font-weight: bold;
 }
+.c-name {
+    font-family: latoHairline;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
 section#about {
     background: #f5f4eb;
 }
@@ -196,6 +202,9 @@ input#name, input#email {
     -moz-animation: bounce 2s infinite;
     -o-animation: bounce 2s infinite;
 }
+.bounce a {
+    text-decoration: none;
+}
 
 @-webkit-keyframes bounce {
     0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
@@ -237,7 +246,9 @@ input#name, input#email {
     height:580px;
     position:relative;
 }
-
+.ug-textpanel-title {
+    visibility: hidden;
+}
 .pic, .pic a{
     /* Each picture and the hyperlink inside it */
     width:100px;
@@ -311,15 +322,9 @@ fieldset{
 
 /*about carousel*/
 
-.section-container-about .carousel {
-    position: static;
-}
 .section-container-about {
-    height: 600px;
-    position: relative;
-}
-.col-title {
-    height: 75px;
+    /*height: 600px;*/
+    /*position: relative;*/
 }
 .glyphicon-chevron-right:before,
 .glyphicon-chevron-left:before {
@@ -381,7 +386,9 @@ fieldset{
     margin: 10px;
     background-color: #ffff99;
 }
-
+.carousel-indicators {
+    bottom: -20px;
+}
 /*footer section*/
 #myFooter {
     background-color: #3a3f46;
@@ -459,15 +466,15 @@ fieldset{
 }
 
 
-#myFooter .facebook:hover {
+#myFooter .facebook:hover i {
     color: #0077e2;
 }
 
-#myFooter .google:hover {
+#myFooter .google:hover i {
     color: #ef1a1a;
 }
 
-#myFooter .twitter:hover {
+#myFooter .twitter:hover i {
     color: #00aced;
 }
 
@@ -487,8 +494,8 @@ fieldset{
 /* You can remove this. */
 .social-icons a i {
     display: inline;
+    font-size: 24px;
 }
-
 #myFooter{
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;

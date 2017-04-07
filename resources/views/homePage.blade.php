@@ -22,7 +22,7 @@
     @include('section/awards-section')
 </section>
 
-<!-- Contact Section -->
+<!-- events Section -->
 {{--<section id="events" class="events-section">--}}
     {{--<div class="section-container">--}}
         {{--<div class="container">--}}

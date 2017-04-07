@@ -61,7 +61,7 @@
     <div class="front-div" id="home">
         <div class="flex-center pattern-1 mask">
 
-            <div class="bounce"><i class="fa fa-angle-double-down"></i></div>
+            <div class="bounce"><a href="#about"><i class="fa fa-angle-double-down"></i></a></div>
         </div>
     </div>
 </header>

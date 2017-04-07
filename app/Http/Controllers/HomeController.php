@@ -9,7 +9,7 @@ use Theme;
 class HomeController extends Controller
 {
     //
-    function viewHomePage(){
+    function veiwHomePage(){
         $theme = Theme::uses('default')->layout('default');
         return $theme->of('homepage')->render();
     }
