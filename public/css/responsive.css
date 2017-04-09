@@ -62,6 +62,9 @@
     .navbar-right li a.active .slider{
         width: 100%;
     }
+    .section-container-about .carousel {
+        height:770px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -70,6 +73,9 @@
         -webkit-box-shadow:0px 1px 1px #222;
         -moz-box-shadow:0px 1px 1px #222;
         box-shadow:0px 1px 1px #222;
+    }
+    .front-div {
+        background-position: center;
     }
     /*.psme-logo {*/
     /*width: 75%;*/
@@ -98,6 +104,9 @@
     .psme-logo2 {
         width: 50px !important;
     }
+    .carousel-indicators {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -124,5 +133,9 @@ and (max-device-width : 1024px){
     }
     .navbar-right {
         right: 30px;
+    }
+
+    .front-div {
+        background-position: center;
     }
 }
