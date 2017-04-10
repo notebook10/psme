@@ -45,9 +45,7 @@
                         </div>
                         <div class="col-sm-7">
                             <div class="about-content-c">
-                               <h3 class="c-name">Samuel Bandola</h3>
-                               <h4>Software Developer</h4>
-                               <h4>Bachelor of Science in Information Technology</h4>
+                               <h3 class="c-name">Mr. Sonny Mendoza</h3>
                             </div>
                         </div>
                     </div>
