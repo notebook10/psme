@@ -40,12 +40,12 @@
                             <span class="slider"></span>
                         </a>
                     </li>
-                    {{--<li>--}}
-                        {{--<a class="page-scroll" href="#events">--}}
-                            {{--<span>Events</span>--}}
-                            {{--<span class="slider"></span>--}}
-                        {{--</a>--}}
-                    {{--</li>--}}
+                    <li>
+                        <a class="page-scroll" href="#events">
+                            <span>Events</span>
+                            <span class="slider"></span>
+                        </a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contacts">
                             <span>Contact</span>

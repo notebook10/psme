@@ -23,21 +23,21 @@
 </section>
 
 <!-- events Section -->
-{{--<section id="events" class="events-section">--}}
-    {{--<div class="section-container">--}}
-        {{--<div class="container">--}}
-            {{--<div class="row">--}}
-                {{--<div class="title-page">--}}
-                    {{--<h1>The Events</h1>--}}
-                {{--</div>--}}
-                {{--<div class="events-content">--}}
+<section id="events" class="events-section">
+    <div class="section-container">
+        <div class="container">
+            <div class="row">
+                <div class="title-page">
+                    <h1>The Events</h1>
+                </div>
+                <div class="events-content">
 
 
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</section>--}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Contact Section -->
 <section id="contacts" class="contacts-section">
